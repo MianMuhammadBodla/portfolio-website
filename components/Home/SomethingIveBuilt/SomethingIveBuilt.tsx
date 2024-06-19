@@ -81,7 +81,7 @@ export default function SomethingIveBuilt() {
               </div>
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
                 <p className="text-gray-300 md:text-gray-400 text-left md:text-right ">
-                {"I'm excited to share that I have successfully completed my first major assignment as part of my studies at PIAIC. For our end-of-quarter project, I developed a simple calculator using npm and TypeScript."}
+                {"I am excited to share that I have successfully completed my first major assignment as part of my studies at PIAIC. For our end-of-quarter project, I developed a simple calculator using npm and TypeScript."}
 
                 {"This project was a fantastic opportunity to deepen my understanding of JavaScript, TypeScript, and the npm ecosystem. Now, the calculator is available as an npm package!"}
 
@@ -91,7 +91,6 @@ export default function SomethingIveBuilt() {
                 {"3. Run the calculator with: `npx muhammad-bodla-simple-calculator`"}
                 {"4. Enter the first number, choose an operation, and enter the second number to get your result."}
 
-"
                 </p>
               </div>
               <ul
