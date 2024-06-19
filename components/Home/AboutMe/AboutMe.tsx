@@ -28,19 +28,19 @@ export default function AboutMe(props) {
         <div className="w-full flex flex-col md:flex-row space-y-8 md:space-y-0  md:space-x-8 sm:space-x-2 ">
           <div className="w-full md:w-7/12 space-y-4 sm:text-base text-sm ">
             <div className="font-Header ">
-              <span className="text-gray-400 ">
-              Hello! I'm Muhammad, a Certified Cloud Applied Generative AI Engineer specializing in Full Stack Web Development with a focus on MicroServices and GPT integration. I develop Web 2.0 applications with custom GPTs and chatbots, and have experience with Smart Contracts in Generative AI.
+              <p className="text-gray-400 ">
+              {"Hello! I'm Muhammad, a Certified Cloud Applied Generative AI Engineer specializing in Full Stack Web Development with a focus on MicroServices and GPT integration. I develop Web 2.0 applications with custom GPTs and chatbots, and have experience with Smart Contracts in Generative AI."}
 
-Activities and Societies:
-President, Junior Biological Club (2023-24)
-Finance Secretary, Junior Biological Club (2022-23)
-Parliamentary Debater, Formanites Debating Society (2022-24)
-Roll of Honour (2022-24)
-Boxing Training, FCCU Coaches (2022-23)
-Media Head Volunteer, SciCon 1.0 (2023)
-Volunteer Photographer and Usher
-I'm eager to leverage my skills and experiences to drive impactful projects. Let's connect!
-              </span>
+{"Activities and Societies:"}
+{"President, Junior Biological Club (2023-24)"}
+{"Finance Secretary, Junior Biological Club (2022-23)"}
+{"Parliamentary Debater, Formanites Debating Society (2022-24)"}
+{"Roll of Honour (2022-24)"}
+{"Boxing Training, FCCU Coaches (2022-23)"}
+{"Media Head Volunteer, SciCon 1.0 (2023)"}
+{"Volunteer Photographer and Usher"}
+{"I'm eager to leverage my skills and experiences to drive impactful projects. Let's connect!"}
+              </p>
             </div>
             <div className="font-Header ">
               <span className="text-gray-400 ">
