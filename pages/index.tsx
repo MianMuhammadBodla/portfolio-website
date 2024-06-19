@@ -35,9 +35,36 @@ export default function Home() {
     process.env.NEXT_PUBLIC_BLACKLIST_COUNTRIES === "" ? true : false
   );
 
-  // this userEffect will be called to get the user location, so we can check if he is from the blackList,
-  // this will only run if NEXT_PUBLIC_BLACKLIST_COUNTRIES is not empty
- 
+
+  // this useEffect will be called when userData is set
+
+//The Following code is very useful that it run home page
+  useEffect(() => {
+    // remove the interval Cookie timer setter when
+    clearInterval(context.sharedState.userdata.timerCookieRef.current);
+    if (typeof window !== "undefined") {
+      // remove UserDataPuller project EventListeners
+      window.removeEventListener("resize", context.sharedState.userdata.windowSizeTracker.current);
+      window.removeEventListener("mousemove", context.sharedState.userdata.mousePositionTracker.current, false);
+      // remove Typing project EventListeners
+      window.removeEventListener("resize", context.sharedState.typing.eventInputLostFocus);
+      document.removeEventListener("keydown", context.sharedState.typing.keyboardEvent);
+    }
+    setTimeout(() => {
+      setShowElement(true);
+    }, 4500);
+
+    setTimeout(() => {
+      setShowThisCantBeReached(false);
+    }, 5400);
+    // ? INFORMATIONAL next function will show the component after changing the state of ShowMe
+    setTimeout(() => {
+      setShowElement(false);
+      setShowMe(true);
+      context.sharedState.finishedLoading = true;
+      context.setSharedState(context.sharedState);
+    }, 10400);
+  }, [context, context.sharedState]);
 
   useEffect(() => {
     Aos.init({ duration: 2000, once: true });
