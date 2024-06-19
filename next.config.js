@@ -1,5 +1,5 @@
 // next.config.js
 module.exports = {
   reactStrictMode: true,
-  swcMinify: false,
+  swcMinify: true,
 };
