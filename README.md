@@ -74,6 +74,6 @@ SOFTWARE.
 
 ## Author Info
 
-- Linkedin - [@muhammad-bodla]([https://www.linkedin.com/in/abdellatif-anaflous/](https://www.linkedin.com/in/muhammad-bodla/))
-- Website - [Portfolio]([https://anaflous.com](https://portfolio-website-orpin-seven.vercel.app/))
+- Linkedin - [@muhammad-bodla](https://www.linkedin.com/in/abdellatif-anaflous/)
+- Website - [Portfolio](https://portfolio-website-orpin-seven.vercel.app)
 
