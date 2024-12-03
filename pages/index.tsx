@@ -72,8 +72,8 @@ export default function Home() {
 
   console.log("website is rendering...");
   const meta = {
-    title: "Muhammad - Certified Cloud Applied Generative AI Engineer",
-    description: `I'm a Certified Cloud Applied Generative AI Engineer. Get in touch with me to know more.`,
+    title: "Muhammad - Certified Agentic AI Engineer",
+    description: `I'm a Certified Agentic AI Engineer. Get in touch with me to know more.`,
     image: "/titofCercle.png",
     type: "website",
   };
