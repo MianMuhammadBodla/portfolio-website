@@ -52,11 +52,11 @@ export default function MyName(props: { finishedLoading: boolean }) {
         }}
         className="text-gray-400 font-Header text-sm md:text-lg sm:text-md mt-10 tracking-wider"
       >
-        Greetings! I&apos;m Muhammad, a <span className="text-AAsecondary">Certified Cloud Applied Generative AI Engineer </span> with a strong aptitude for problem-solving.<br className="2xl:block hidden" /> My current expertise lies in <span className="text-AAsecondary">Full Stack Web Developnment </span>with MicroServices and integrating GPTs.
-        <br className="2xl:block hidden"/>I specialize in developing and integrating Web 2.0 applications with <span className="text-AAsecondary">Custom GPTs and chatbots</span> Additionally, I have hands-on experience with Smart Contracts in the realm of Generative AI.
+        Greetings! I&apos;m Muhammad, a <span className="text-AAsecondary">Certified Agentic AI Engineer </span> with a strong aptitude for problem-solving.<br className="2xl:block hidden" /> My current expertise lies in <span className="text-AAsecondary">Full Stack Web Developnment </span>with MicroServices and integrating GPTs.
+        <br className="2xl:block hidden"/>I specialize in developing and integrating Web 2.0 applications with <span className="text-AAsecondary">AI Agents, Custom GPTs and Agentics chatbots</span> Additionally, I have hands-on experience with Smart Contracts in the realm of AI Agents.
         This involves working with{" "}
         <span className="text-AAsecondary">Smart Contracts</span>  on the{" "}
-        <span className="text-AAsecondary">Generative AI</span>. 
+        <span className="text-AAsecondary">Agentic AI</span>. 
         {/* <br className="2xl:block hidden" />creating and deploying them, as well as implementing the
         front-end components to enable seamless user interactions. */}
       </motion.h3>
